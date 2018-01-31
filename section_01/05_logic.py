@@ -20,3 +20,36 @@ else:
 
 # Additional info links
 # https://en.wikipedia.org/wiki/Conditional_(computer_programming)
+
+# Truth table for logical AND
+# A B (A and B)
+# 0 0 0
+# 0 1 0
+# 1 0 0
+# 1 1 1
+
+# Truth table for logical OR
+# A B (A and B)
+# 0 0 0
+# 0 1 1
+# 1 0 1
+# 1 1 1
+
+assert not (False and True)
+assert not (True and False)
+assert not (False and False)
+assert (True and True)
+
+can_buy = False
+
+if bank_balance > 0 and not rent_due:
+    can_buy = True
+
+if bank_balance > 0 or has_credit_card:
+    can_buy = True
+
+if (bank_balance > 0 and not rent_due) or has_credit_card:
+    can_buy = True
+
+if has_credit_card or (bank_balance > 0 and not rent_due):
+    can_buy = True

@@ -1,7 +1,7 @@
 code    -   A representation of instructions for a computer to follow; like a recipe.
 coder   -   A computer programmer. Someone who writes computer programs.
-data    -   A collection of individual pieces of information
-datum   -   A single piece of information
-logic   -   A mathematical way of determining the absolute truth
+data    -   A collection of individual pieces of information.
+datum   -   A single piece of information.
+logic   -   A mathematical way of determining the absolute truth.
 program -   A complete set of instructions to accomplish a task; like a recipe.
 programmer  -   A person who writes instructions for a computer.

@@ -22,7 +22,7 @@ i = 12
 f = 33.33
 half = 1.0 / 2.0
 
-# String: An ordered sequence of characters
+# String: An ordered sequence of characters(individual letters or numbers)
 student_name = "Alice Jones"
 
 # List: A list is an ordered array of values,
