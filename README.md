@@ -1,2 +1,2 @@
 # python_lessons
-Code to support tutoring folks in leanring to program using python.
+Code to support tutoring folks in learning to program using python.
