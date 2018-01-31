@@ -1,0 +1,91 @@
+What is a Computer?
+
+    A Computer is a calculating machine.
+    People who did basic math for a job were called computers.
+
+    Everything inside a computer is represented by numbers.
+
+    Computers are dumb, but very fast.
+    They are good at doing the simple things over and over again very quickly.
+
+    If a computer only understands numbers then,
+     how can a computer act as;
+      a word processor,
+      a paint program,
+      or a music player?
+
+    Letters, colors, and sounds are converted to numbers,
+    and then later the numbers can be converted back to
+    letters, colors, and sounds.
+
+    Instructions a computer executes are also stored as numbers.
+
+    A general purpose computer like a PC is at its core,
+     a machine the simply processes one instruction after another.
+
+    A PC has hardware that converts;
+            key-strokes,
+            mouse-clicks/finger-touches,
+        into numeric input,
+    and converts numeric output into;
+        colors,
+        and symbols
+    on the screen.
+
+
+What is a program?
+
+    A program is like a recipe or an instruction manual.
+    It contains a series of steps to be done.
+
+    A computer program is made of lines of code.
+    The lines of code define statements.
+    These statements are instructional steps.
+
+    The statements can be organized in a variety or ways.
+
+    The simplest is called a Script which is just a series of statements,
+     to be executed in sequence; one after the other.
+
+    The second most common technique for code organization is defining Functions.
+    A function is a set of steps that will be used more than once.
+
+
+What is a function?
+
+    Like a recipe book defines early on how to make a sauce.
+    Later on in other recipes they simply name the sauce.
+    The name of the sauce implies all the steps in making the sauce.
+
+    The smallest unit of work in Mathematics is a Function.
+
+    A function is any process that,
+        takes some kind of input,
+        and returns some kind of output.
+
+        Here is a mathematical equation where
+         "o" stands for output,
+         and "i" stands for input,
+         and "f" stands for function
+
+         o = f(i)
+
+
+     From these facts we derive,
+      the first law of computing:
+         Garbage in; Garbage out
+
+
+What is a programming Language?
+
+    A programming language allows us to instruct the computer.
+
+    It is closer to the way we think than the way the computer thinks.
+
+    It can be easily and automatically translated, into machine code.
+
+    Machine code is a computers native tongue.
+
+    It is composed of numeric instructions.
+
+    Executing machine code the only thing a computer can do.
