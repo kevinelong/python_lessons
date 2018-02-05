@@ -10,14 +10,7 @@ def get_word_counts(text):
     output = {}
     word_list = text.split(" ")
 
-    for w in word_list:
-        w = w.strip()
-        w = w.lower()
-
-        if w not in output:
-            output[w] = 1
-        else:
-            output[w] += 1
+    # Your coded here.
 
     return output
 
@@ -28,33 +21,18 @@ def get_similarity_score(a, b):
     a_counts = get_word_counts(a)
     b_counts = get_word_counts(b)
 
-    for k in a_counts.keys():
-        if k in b_counts.keys():
-            score += b_counts[k]
-
-    for k in b_counts.keys():
-        if k in a_counts.keys():
-            score += a_counts[k]
-
-    possible = sum(a_counts.values()) + sum(b_counts.values())
+    # Your coded here.
 
     return float(score) / float(possible)
 
 
-def compare_items_to_master(master, items):
-    for k in items.keys():
-        result = get_similarity_score(master, items[k])
-        print k, result
-
-
-def compare_each_to_every(items):
-    for a in items.keys():
-        for b in items.keys():
-            if a == b:
-                break
-            result = get_similarity_score(items[a], items[b])
-            print a, b, result
-
+# def compare_items_to_master(master, items):
+#     # Your coded here.
+#
+#
+# def compare_each_to_every(items):
+#     # Your coded here.
+#
 
 master = "Now is the time for all good people to come to the aid of their planet"
 
@@ -66,6 +44,8 @@ items = {
     "E": "Apple orange pear turkey",
     "F": "Apple orange pear cherry banana"
 }
+
+print get_similarity_score("people are good", master)
 
 compare_items_to_master(master, items)
 compare_each_to_every(items)

@@ -67,5 +67,7 @@ items = {
     "F": "Apple orange pear cherry banana"
 }
 
+print get_similarity_score("people are good", master)
+
 compare_items_to_master(master, items)
 compare_each_to_every(items)
