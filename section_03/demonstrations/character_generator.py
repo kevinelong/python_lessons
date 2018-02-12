@@ -1,5 +1,6 @@
 from random import randint
 
+
 # character has attributes
 
 class Dice:
