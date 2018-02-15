@@ -19,14 +19,17 @@ class Attribute:
         self.short_name = short_name
         self.value = initial_value
 
-    def gen(self, die_quantity=3, die_sides=6):
+    def gen(self, die_quantity=3, die_sides=6, extra=2):
         all_rolls = []
 
         d = Dice(die_sides)
 
-        for n in range(0, die_quantity):
+        for n in range(0, die_quantity + extra):
             all_rolls.append(d.roll())
 
+        all_rolls.sort()
+        all_rolls.reverse()
+        all_rolls = all_rolls[0:die_quantity]
         self.value = sum(all_rolls)
 
     def __repr__(self):
@@ -56,7 +59,7 @@ class Character:
 
     def generate_attributes(self):
         for a in self.attribute_list:
-            a.gen(3, 6)
+            a.gen(3, 6, 3)
 
     def show(self):
         for a in self.attribute_list:
@@ -66,3 +69,4 @@ class Character:
 c = Character()
 c.generate_attributes()
 c.show()
+

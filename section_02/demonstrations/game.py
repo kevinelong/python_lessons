@@ -22,7 +22,6 @@ class Monster(Character):
 
 class Game:
 
-
     def combat(self, c1, c2):
         no_one_is_dead = True
 
