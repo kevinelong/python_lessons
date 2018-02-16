@@ -60,17 +60,25 @@ result = find_nearest(current, locations)
 
 print result
 
-output = ""
-for x in range(0,10):
-    for y in range(0,10):
 
-        if current[0] == x and current[1] == y:
-            output += " x"
-        # elif isStarbucks():
-        #     output += " *"
-        else:
-            output += " ."
+def print_grid(n):
+    output = ""
+    for x in range(0, n):
+        for y in range(0, n):
 
-    output += "\n"
+            if current[0] == x and current[1] == y:
+                output += " x"
+            # elif isStarbucks():
+            #     output += " *"
+            else:
+                output += " ."
 
-print output
+        output += "\n"
+
+    print output
+
+
+print_grid(10)
+
+# what is the shortest path from the current location to visit all,
+#  and then return to the start.
