@@ -26,7 +26,7 @@ expected_result = {
     }
 }
 
-
+# First make it work, then make it generic.
 def transform(data_list, master_key):
     output = dict()
 
@@ -36,5 +36,6 @@ def transform(data_list, master_key):
 
 
 result = transform(input_data, "id_number")
-print result
+
+print(result)
 assert result == expected_result

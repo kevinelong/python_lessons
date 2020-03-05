@@ -41,5 +41,5 @@ c2 = Monster()
 g = Game()
 g.combat(c1, c2)
 
-print c1.get_status()
-print c2.get_status()
+print(c1.get_status())
+print(c2.get_status())

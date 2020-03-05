@@ -17,7 +17,7 @@ def letter_count(text):
 
 
 result = letter_count("Now is the time for all good people to come to the aid of their planet.")
-print result
+print(result)
 assert result == {'a': 3, ' ': 15, 'c': 1, 'e': 8, 'd': 2, 'g': 1, 'f': 2, 'i': 4, 'h': 3, 'm': 2, 'l': 4, 'o': 9,
                   'N': 1, 'p': 3, 's': 1, 'r': 2, 't': 7, 'w': 1, '.': 1, 'n': 1}
 

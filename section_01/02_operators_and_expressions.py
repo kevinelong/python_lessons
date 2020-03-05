@@ -12,7 +12,7 @@ y = 2
 
 # The next most common operator is the  Comparison operator
 assert x == 3
-assert y == 3
+assert y == 2
 
 # The next most common operators are simple math operators
 z = x + y

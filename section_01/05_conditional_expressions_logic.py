@@ -4,19 +4,19 @@
 light = "GREEN"
 
 if light == "GREEN":
-    print "Go"
+    print("Go")
 elif light == "RED":
-    print "Stop"
+    print("Stop")
 elif light == "YELLOW":
-    print "Go Very Fast"
+    print("Go Very Fast")
 
 age = 19
 legal = 21
 
 if age >= legal:
-    print "Can Drink"
+    print("Can Drink")
 else:
-    print "Can't Drink"
+    print("Can't Drink")
 
 # Additional info links
 # https://en.wikipedia.org/wiki/Conditional_(computer_programming)
@@ -41,6 +41,11 @@ assert not (False and False)
 assert (True and True)
 
 can_buy = False
+
+bank_balance = 1
+rent_due = True
+
+has_credit_card = True
 
 if bank_balance > 0 and not rent_due:
     can_buy = True

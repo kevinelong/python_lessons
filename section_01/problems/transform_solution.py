@@ -1,6 +1,7 @@
 # convert a list of dictionaries into a dictionary of dictionaries
 # this is often done so yuo can look up data quickly by a specific key
 # like an id
+import pprint
 
 input_data = [
     {
@@ -43,5 +44,8 @@ def transform(data_list, master_key):
 
 
 result = transform(input_data, "id_number")
-print result
+
+pp = pprint.PrettyPrinter(depth=6)
+pp.pprint(result)
+
 assert result == expected_result

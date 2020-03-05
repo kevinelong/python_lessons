@@ -1,7 +1,14 @@
-code    -   A representation of instructions for a computer to follow; like a recipe.
-coder   -   A computer programmer. Someone who writes computer programs.
-data    -   A collection of individual pieces of information.
-datum   -   A single piece of information.
-logic   -   A mathematical way of determining the absolute truth.
-program -   A complete set of instructions to accomplish a task; like a recipe.
+
+
+
+code        -   A representation of instructions for a computer to follow; like a recipe.
+coder       -   A computer programmer. Someone who writes computer programs. Software Engineer. Developer.
+data        -   A collection of individual pieces of information.
+datum       -   A single piece of information.
+logic       -   A mathematical way of determining the absolute truth.
+program     -   A complete set of instructions to accomplish a task; like a recipe. Script. Command.
 programmer  -   A person who writes instructions for a computer.
+
+Class       -   is the template or idea of an object like a blueprint design for a house.
+Instance    -   A fully realized house you could live in.
+Object      -   Sometimes means a class and sometimes means an instance depending on context.

@@ -8,8 +8,8 @@
 
 for x in range(0, 3):
     for y in range(0, 3):
-        print ".",
-    print
+        print( ".",)
+    print("")
 
 
 # Generate Output Grid or Any Size
@@ -23,8 +23,8 @@ for x in range(0, 3):
 def grid(size):
     for x in range(0, size):
         for y in range(0, size):
-            print ".",
-        print
+            print( ".",)
+        print("")
 
 
 # call the function
@@ -36,7 +36,7 @@ board = [
     [".", ".", "."],
 ]
 
-print board
+print(board)
 
 
 def build_board(size):
@@ -50,7 +50,7 @@ def build_board(size):
 
 
 my_board = build_board(12)
-print my_board
+print(my_board)
 
 
 def get_board_string(board):
@@ -62,10 +62,10 @@ def get_board_string(board):
     return output
 
 
-print get_board_string(my_board)
+print( get_board_string(my_board))
 
 my_board[6][6] = "X"
-print get_board_string(my_board)
+print( get_board_string(my_board))
 
 my_board[3][5] = "O"
-print get_board_string(my_board)
+print( get_board_string(my_board))

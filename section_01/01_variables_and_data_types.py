@@ -9,7 +9,7 @@
 #  and the value written on the paper inside the jar says "144"
 quantity = 144
 
-print quantity
+print(quantity)
 
 # Data Type: A Specific kind of variable (e.g. Integer, String, List)
 

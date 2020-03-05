@@ -40,4 +40,4 @@ class Roller:
 
 r = Roller()
 r.best_x_out_of_y()
-print r.value
+print(r.value)

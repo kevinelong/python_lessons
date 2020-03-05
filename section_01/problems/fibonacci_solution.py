@@ -32,7 +32,7 @@ def get_fibonacci_numbers_list(limit):
 # run the code passing in 10 as a parameter
 result = get_fibonacci_numbers_list(10)
 
-print result
+print(result)
 
 # test
 assert result == [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]

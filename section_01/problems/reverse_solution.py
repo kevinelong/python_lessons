@@ -14,7 +14,7 @@ def reverse(text):
 
 # call the function and store the result
 result = reverse("ABC")
-print result
+print(result)
 
 # test the result
 assert result == "CBA"

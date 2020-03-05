@@ -3,19 +3,19 @@ import math
 
 def distance(p1, p2):
     d1 = p1[0] - p2[0]
-    print d1
+    print(d1)
 
     d2 = p1[1] - p2[1]
-    print d1
+    print(d1)
 
     s1 = d1 ** 2
-    print s1
+    print(s1)
 
     s2 = d2 ** 2
-    print s2
+    print(s2)
 
     t = s1 + s2
-    print t
+    print(t)
 
     d = math.sqrt(t)
 
@@ -26,8 +26,8 @@ def distance2(p1, p2):
     return math.sqrt(((p1[0] - p2[0]) ** 2) + ((p1[1] - p2[1]) ** 2))
 
 
-print distance([3.5, 3.5], [5.5, 5.5])
-print distance2([3.5, 3.5], [5.5, 5.5])
+print(distance([3.5, 3.5], [5.5, 5.5]))
+print(distance2([3.5, 3.5], [5.5, 5.5]))
 
 locations = [
     [5, 5],
@@ -36,7 +36,7 @@ locations = [
     [1, 4],
     [7, 7],
 ]
-current = [7, 6]
+current = [3, 2]
 
 
 def find_nearest(current, locations):
@@ -58,24 +58,44 @@ def find_nearest(current, locations):
 
 result = find_nearest(current, locations)
 
-print result
+print(result)
+
+
+def isNearest(x, y):
+    b = locations[result[0]]
+    if b[0] == x and b[1] == y:
+        return True
+    return False
+
+
+def isStarbucks(x, y):
+    index = 0
+    for s in locations:
+        if s[0] == x and s[1] == y:
+            return index
+        index += 1
+    return False
 
 
 def print_grid(n):
     output = ""
     for x in range(0, n):
         for y in range(0, n):
-
+            i = isStarbucks(x, y)
             if current[0] == x and current[1] == y:
                 output += " x"
-            # elif isStarbucks():
-            #     output += " *"
+            elif i is not False:
+                if isNearest(x,y):
+                    output += str(i) + "v"
+                else:
+                    output += str(i) + "*"
+
             else:
                 output += " ."
 
         output += "\n"
 
-    print output
+    print(output)
 
 
 print_grid(10)

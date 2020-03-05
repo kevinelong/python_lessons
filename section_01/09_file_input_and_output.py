@@ -4,6 +4,7 @@ def write_list_to_file(text_list, file_name):
     output_file.write("\n".join(text_list))
     output_file.close()
 
+
 def read_list_from_file(file_name):
 
     input_file = open("data.txt", "r")
@@ -16,7 +17,13 @@ def read_list_from_file(file_name):
 
     return output_word_list
 
+word_list = ["surya", "kevin", "nina"]
 
-print output_word_list
+write_list_to_file(word_list, "data.txt")
+print(word_list)
 
-assert word_list == output_word_list
+result_word_list = read_list_from_file("data.txt")
+
+print(result_word_list)
+
+assert word_list == result_word_list

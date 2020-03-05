@@ -39,9 +39,10 @@ gross += 30 * 200 * beer.get_profit()
 
 all_labor = 4 * labor.get_cost() * 30 * 30
 
-print gross
+print(gross)
 rent = 2000
 utils = 500
 overhead = rent + utils
 net = gross - overhead - all_labor
-print net
+print(net)
+

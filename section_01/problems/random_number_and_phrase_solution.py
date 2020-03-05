@@ -6,7 +6,7 @@ def pick_a_number_between(minimum, maximum):
     return r
 
 
-print pick_a_number_between(1, 10)
+print(pick_a_number_between(1, 10))
 
 # PICK RANDOM PHRASE FROM LIST
 
@@ -26,5 +26,5 @@ def pick_random_item_from_list(item_list):
     return text
 
 
-print pick_random_item_from_list(phrases)
+print(pick_random_item_from_list(phrases))
 

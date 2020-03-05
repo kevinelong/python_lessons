@@ -44,7 +44,7 @@ def get_similarity_score(a, b):
 def compare_items_to_master(master, items):
     for k in items.keys():
         result = get_similarity_score(master, items[k])
-        print k, result
+        print(k, result)
 
 
 def compare_each_to_every(items):
@@ -53,7 +53,7 @@ def compare_each_to_every(items):
             if a == b:
                 break
             result = get_similarity_score(items[a], items[b])
-            print a, b, result
+            print(a, b, result)
 
 
 master = "Now is the time for all good people to come to the aid of their planet"
@@ -67,7 +67,7 @@ items = {
     "F": "Apple orange pear cherry banana"
 }
 
-print get_similarity_score("people are good", master)
+print(get_similarity_score("people are good", master))
 
 compare_items_to_master(master, items)
 compare_each_to_every(items)

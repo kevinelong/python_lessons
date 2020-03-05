@@ -30,7 +30,7 @@ class Group(list):
         # loop through all items in list
         for person in self:
             # print the string returned by each items
-            print person.get_full_name()
+            print(person.get_full_name())
 
 
 # define a variable g and put an instance of a new Group into it.
@@ -43,7 +43,7 @@ g = Group()
 p = Person("Kevin", "Long")
 
 # Print only his first name
-print p.first_name
+print (p.first_name)
 
 # put kevin into the group
 g.append(p)
@@ -56,7 +56,7 @@ g.append(Person("Henry", "Harvester"))
 # pul out only first person from the group
 k = g[0]
 # Print that persons last name.
-print k.long_name
+print(k.last_name)
 
 # Print the full name of everyone in the Group/list
 g.show()

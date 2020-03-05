@@ -4,17 +4,21 @@ def add_them_up(numbers):
         total = total + n
     return total
 
+print( "Trying" )
+total = add_them_up([100, 20, 3, 2])
+print("TOTAL:", total)
 
-try:
-    print "Trying"
-    total = add_them_up([100, 20, 3, 2])
-    print "TOTAL:", total
+connected = False
 
-    assert 123 == total
-    print "Succeeded"
+while not connected:
+    try:
+        assert 121 == total
+        print( "Succeeded" )
+        connected = True
+    except:
+        print( "Failed" )
 
-except:
-    print "Failed"
+print("yay!")
 
-import keyword
-print(keyword.kwlist)
+# import keyword
+# print(keyword.kwlist)

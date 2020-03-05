@@ -63,7 +63,7 @@ class Character:
 
     def show(self):
         for a in self.attribute_list:
-            print a
+            print(a)
 
 
 c = Character()

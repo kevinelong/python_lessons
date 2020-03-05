@@ -17,13 +17,13 @@ s = "Now is the time..."
 
 c = word_count(s)
 
-print c
+print(c)
 
 # part two
 parts = s.split(" ")
-print parts[2]
+print(parts[2])
 
 # five things in one line - code golf
-print "apple orange pear cherry".split(" ")[2]
+print("apple orange pear cherry".split(" ")[2])
 
-print "12,9,3".split(",")[1]
+print("12,9,3".split(",")[1])

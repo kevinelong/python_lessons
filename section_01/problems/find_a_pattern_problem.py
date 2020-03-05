@@ -16,5 +16,5 @@ def index_of_string_in_string(needle, haystack):
 
 
 result = index_of_string_in_string(needle, haystack)
-print result
+print(result)
 assert result == 4

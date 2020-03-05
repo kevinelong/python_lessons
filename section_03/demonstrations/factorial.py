@@ -6,6 +6,6 @@ def factorial(n):
     return r
 
 
-print factorial(10)
+print(factorial(10))
 
 assert factorial(3) == 6
