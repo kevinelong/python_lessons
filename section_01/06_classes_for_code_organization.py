@@ -1,7 +1,10 @@
 ###
 # Class - a class is defines a recipe for how to build an Object instance
 #           like a recipe for cake defines the steps to make a cake,
-#           but executing those steps constructs a new cake instance.
+#           but executing those steps constructs a new cake instance
+#           that you can actually eat.
+
+#           Like functions Classes are used to organize your
 ###
 
 
@@ -16,13 +19,13 @@ class Person(object):
 
     # Method to get string containing both first and last name
     def get_full_name(self):
-        return self.first_name + " " + self.last_name
+        return self.last_name + ", " + self.first_name
 
 
 # define a new class Group based on the existing class "list"
 # that inherits all of the list class's properties and methods
 
-class Group(list):
+class Group(list):  # Group IS_A List
     # Group has no constructor it inherited from list
 
     # Method
@@ -43,7 +46,8 @@ g = Group()
 p = Person("Kevin", "Long")
 
 # Print only his first name
-print (p.first_name)
+print(p.first_name)  # Succinct
+#  print(p["first_name"]) # Verbose
 
 # put kevin into the group
 g.append(p)

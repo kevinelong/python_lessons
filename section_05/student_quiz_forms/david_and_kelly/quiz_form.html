@@ -1,0 +1,33 @@
+<style>
+        form label {
+            display: inline-block;
+        }
+    </style>
+
+<h1>Quiz</h1>
+
+<form method="post" action="evaluate.py">
+    <fieldset>
+        <legend>When and Who:</legend>
+        <label>
+            <h2>Date</h2>
+            <input name="date_taken" type="date"><br/>
+        </label>
+        <label>
+            <h2>Student Name</h2>
+            <input name="student_name_first" placeholder="first">
+            <input name="student_name_last" placeholder="last">
+        </label>
+    </fieldset>
+
+
+    <fieldset><legend>Which of these is not a fruit?</legend><p><label for="g1"><input type="radio" name="1" id="g1" value="B"> Banana</label></p>
+<p><label for="g2"><input type="radio" name="1" id="g2" value="S"> Strawberry</label></p>
+<p><label for="g3"><input type="radio" name="1" id="g3" value="T"> Tomato</label></p>
+<p><label for="g4"><input type="radio" name="1" id="g4" value="A"> Apple</label></p>
+</fieldset><fieldset><legend>Is Portland Weird?</legend><p><label for="g1"><input type="radio" name="2" id="g1" value="Y"> Yes</label></p>
+<p><label for="g2"><input type="radio" name="2" id="g2" value="N"> No</label></p>
+</fieldset><input type="submit">
+</form>
+</body>
+</html>

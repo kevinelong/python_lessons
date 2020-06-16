@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        form label {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Quiz</h1>
+
+<form method="post" action="evaluate.py">
+    <fieldset>
+        <legend>When and Who:</legend>
+        <label>
+            <h2>Date</h2>
+            <input name="date_taken" type="date"><br/>
+        </label>
+        <label>
+            <h2>Student Name</h2>
+            <input name="student_name_first" placeholder="first">
+            <input name="student_name_last" placeholder="last">
+        </label>
+    </fieldset>
+
+    <hr>
+<fieldset><legend>Which of the following is a fruit?</legend><p><label for="c1"><input type="radio" name="q1001" id="A" value="A">A Banana</label></p><p><label for="c1"><input type="radio" name="q1001" id="B" value="B">B Strawberry</label></p><p><label for="c1"><input type="radio" name="q1001" id="C" value="C">C Tomato</label></p><p><label for="c1"><input type="radio" name="q1001" id="D" value="D">D Apple</label></p></fieldset><fieldset><legend>Is Portland weird?</legend><p><label for="c1"><input type="radio" name="q1002" id="A" value="A">A Yes</label></p><p><label for="c1"><input type="radio" name="q1002" id="B" value="B">B No</label></p></fieldset>
+    <input type="submit">
+</form>
+</body>
+</html>

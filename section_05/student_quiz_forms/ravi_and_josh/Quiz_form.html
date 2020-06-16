@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        form label {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Quiz</h1>
+
+<form method="post" action="evaluate.py">
+    <fieldset>
+        <legend>When and Who:</legend>
+        <label>
+            <h2>Date</h2>
+            <input name="date_taken" type="date"><br/>
+        </label>
+        <label>
+            <h2>Student Name</h2>
+            <input name="student_name_first" placeholder="first">
+            <input name="student_name_last" placeholder="last">
+        </label>
+    </fieldset>
+
+    <hr>
+
+<form method="post" action="evaluate.py">
+        <fieldset>
+        <legend>Which of these is not a fruit?:</legend>
+        <p><label for="g1"><input type="radio" name="g1" id="g1" value="1"> Banana</label></p>
+
+        
+        <p><label for="g1"><input type="radio" name="g1" id="g1" value="1"> Strawberry</label></p>
+
+        
+        <p><label for="g1"><input type="radio" name="g1" id="g1" value="1"> Tomato</label></p>
+
+        
+        <p><label for="g1"><input type="radio" name="g1" id="g1" value="1"> Apple</label></p>
+
+        </fieldset>
+    
+        <fieldset>
+        <legend>Is Portland Weird?:</legend>
+        <p><label for="g2"><input type="radio" name="g2" id="g2" value="2"> Yes</label></p>
+
+        
+        <p><label for="g2"><input type="radio" name="g2" id="g2" value="2"> No</label></p>
+
+        </fieldset>
+    
+    <input type="submit">
+    </form>
+    </body>
+    </html>
