@@ -1,0 +1,22 @@
+
+Introduction to Programming with Python
+
+Day 1
+0 Review of Computer Concepts
+1 variables and data types
+2 operators and expressions
+3 while and for loops
+4 functions
+5 conditional expressions
+
+Day 2
+6 classes and OOP
+7 file input and output
+8 terms
+9 Syntax Review
+10 concept demos
+
+Day 3
+11 personal projects
+12 projects demos
+13 Next Level
